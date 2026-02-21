@@ -78,7 +78,11 @@ Details are presented in the technical appendix↓
 **Armand Djaha, M.Sc. Applied Economist**
 a.djaha@stat.plan.gouv.ci
 armandjaha@gmail.com
-
+**Observatoire du Service Public de Côte d'Ivoire(OSEP)**
+milie@osep.gouv.ci
+**LUCIEN KOUAKOU,head of OSEP**
+lvkosep@gmail.com
+lucien.kouakou@osep.gouv.ci
 Lead methodological contributor to the INQSP:
 
 - Design of the statistical framework  
