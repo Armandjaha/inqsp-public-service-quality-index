@@ -198,7 +198,7 @@ replace Question = "Have your colleagues adopted the concept of a""nouveau fonct
 rename c1 score
 
 // 6. Reorganize
-order Libellé Question Code_question  score
+order Label Question Code_question  score
 replace score = score * 100
 
 // 7. print table
@@ -207,4 +207,5 @@ list, noobs clean
 
 * Export 
 export excel using "$out\indice_global_matrice_Harmean.xlsx",sheet("INDICE 1") firstrow(variables) replace
+
 
