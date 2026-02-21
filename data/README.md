@@ -190,7 +190,7 @@ This dataset reproduces the structure of the official ENQSP OSC module used in I
 | q23 | Satisfaction regarding clarity of administrative procedures. |
 | q24 | Assessment of competence of public service agents. |
 | q25 | Perception of reasonableness of service delivery delays. |
-| q26 | Perception of how well services respond. |
+| q26 | Effective response to specific needs.|
 | q29 | Willingness to recommend public services to other organizations. |
 | q221 | Overall perception of service quality without direct interaction. |
 | q222 | Perceived effectiveness of public services based on indirect knowledge. |
