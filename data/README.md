@@ -29,13 +29,13 @@ The dataset contains five blocks of variables:
 | interview__id | Internal system-generated interview ID. |
 | ip1 | Primary identification code assigned to the observation. |
 | localite | Locality where the PPSP is located. |
-| structure | Name of the public service structure (PPSP). |
+| structure | Name of the public structure. |
 | code_ppsp | Numerical identifier of the public service point. |
-| intitule_ppsp | Official name/title of the PPSP. |
+| intitule_ppsp | Official name/title of  the service point (PPSP) in the structure. |
 | code_agent | Unique identifier of the frontline agent interviewed. |
-| sexe_agent_interv | Gender of the agent (Homme/Femme). |
+| sexe_agent_interv | Gender of the agent (male/female). |
 | age | Age of the agent (in years). |
-| handicap_agent_interv | Indicates whether the agent is in a situation of disability (Oui/Non). |
+| handicap_agent_interv | Indicates whether the agent is in a situation of disability. |
 | annee_prise_poste | Year the agent took office or was appointed. |
 | qa21 | Indicates whether the agent received hierarchical supervision during the year. |
 | qa22 | Indicates whether training needs were met. |
