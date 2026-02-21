@@ -1,6 +1,6 @@
 # Mathematical Appendix – INQSP Composite Index 
 
-This appendix presents the complete mathematical framework used to construct Côte d’Ivoire’s National Public Service Quality Index (INQSP). It follows the methodological standards of the OECD–JRC Handbook on Composite Indicators (2005) and applied governance and service-delivery measurement frameworks.
+This appendix presents the complete mathematical framework used to construct Côte d’Ivoire’s first National Public Service Quality Index (INQSP). It follows the methodological standards of the OECD–JRC Handbook on Composite Indicators (2005) and applied governance and service-delivery measurement frameworks.
 
 ---
 
