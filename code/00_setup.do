@@ -27,9 +27,6 @@ if _rc {
     di as error "Tip: in Stata, use: cd ""path\to\INQSP_methodo"""
     exit 198
 }
-
-}
-
-
 di as txt "Setup OK. ROOT=$ROOT | OUT=$OUT"
+
 
