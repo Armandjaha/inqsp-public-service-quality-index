@@ -206,6 +206,7 @@ list, noobs clean
 
 
 * Export 
-export excel using "$out\indice_global_matrice_Harmean.xlsx",sheet("INDICE 1") firstrow(variables) replace
+export excel using "$OUT\indice_global_matrice_Harmean.xlsx",sheet("INDICE 1") firstrow(variables) replace
+
 
 
