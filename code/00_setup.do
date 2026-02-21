@@ -29,11 +29,11 @@ if _rc {
 }
 
 * 5. Check data folder exists by trying to cd into it (works for folders)
-capture comfirm file "$ROOT"
-if _rc {
+if !fileexists("$ROOT") {
     di as error "Folder 'data' not found in current working directory."
-    di as error "You must run Stata from the repository root."
     exit 198
 }
+}
+
 
 di as txt "Setup OK. ROOT=$ROOT | OUT=$OUT"
