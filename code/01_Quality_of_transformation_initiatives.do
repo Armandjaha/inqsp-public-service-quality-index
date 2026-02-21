@@ -18,7 +18,7 @@ do "code/00_setup.do"
  SUB-INDICE 1 : EXISTENCE OF OPERATIONAL MECHANISM
 =================================================================================*/
 
-use "$root\initiatives_lead", clear
+use "$ROOT\initiatives_lead", clear
 
 
 /*********************************
@@ -172,21 +172,21 @@ gen Code_question = ""
 gen Question      = ""
 
 // Filling
-Replace Code_question = "AGREG" in 1
-Replace Question = "AGREGATION: (SI1 + SI2) / 2" in 1
-Replace Code_question = "AGREG" in 2
-Replace Question = "AGREGATION: (Q3 + Q2) / 2" in 2
-Replace Code_question = "Q3" in 3
-Replace Question = "Do you have an operational mechanism for evaluating utilization?" in 3
+replace Code_question = "AGREG" in 1
+replace Question = "AGREGATION: (SI1 + SI2) / 2" in 1
+replace Code_question = "AGREG" in 2
+replace Question = "AGREGATION: (Q3 + Q2) / 2" in 2
+replace Code_question = "Q3" in 3
+replace Question = "Do you have an operational mechanism for evaluating utilization?" in 3
 
-Replace Code_question = "Q2" in 4
-Replace Question = "Is there a mechanism for raising awareness among beneficiaries?" in 4
+replace Code_question = "Q2" in 4
+replace Question = "Is there a mechanism for raising awareness among beneficiaries?" in 4
 
-Replace Code_question = "AGREG" in 5
-Replace Question = "AGREGATION: (Q5 + Q6 + Q7) / 3" in 5
+replace Code_question = "AGREG" in 5
+replace Question = "AGREGATION: (Q5 + Q6 + Q7) / 3" in 5
 
-Replace Code_question = "Q13" in 6
-Replace Question = "Have you adopted the ""nouveau fonctionnaire"" concept?" in 6
+replace Code_question = "Q13" in 6
+replace Question = "Have you adopted the ""nouveau fonctionnaire"" concept?" in 6
 
 replace Code_question = "Q12" in 7
 replace Question = "Are you familiar with the concept of a ""nouveau fonctionnaire""?" in 7
@@ -207,3 +207,4 @@ list, noobs clean
 
 * Export 
 export excel using "$out\indice_global_matrice_Harmean.xlsx",sheet("INDICE 1") firstrow(variables) replace
+
