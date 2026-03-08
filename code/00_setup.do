@@ -12,7 +12,7 @@ version 17
 global ROOT "data"
 global OUT  "output"
 global CODE "code"
-cd "" // call the folder
+
 
 * 3. Create output folders
 cap mkdir "$OUT"
@@ -32,3 +32,4 @@ if _rc {
 
 
 di as txt "Setup OK. ROOT=$ROOT | OUT=$OUT"
+
