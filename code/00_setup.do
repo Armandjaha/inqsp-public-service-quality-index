@@ -12,6 +12,7 @@ version 17
 global ROOT "data"
 global OUT  "output"
 global CODE "code"
+cd "" // call the folder
 
 * 3. Create output folders
 cap mkdir "$OUT"
@@ -28,10 +29,6 @@ if _rc {
     exit 198
 }
 
-* 5. Check data folder exists by trying to cd into it (works for folders)
-if !fileexists("$ROOT") {
-    di as error "Folder 'data' not found in current working directory."
-    exit 198
-}
+
 
 di as txt "Setup OK. ROOT=$ROOT | OUT=$OUT"
