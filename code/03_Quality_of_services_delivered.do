@@ -22,7 +22,7 @@
  Dependencies
  ------------
  - code/00_setup.do
- - $ROOT/AGENTS_PRESTATAIRES/frontline_workers.dta
+ - $ROOT/frontline_workers.dta
  - $ROOT/ppsp.dta
  - $ROOT/INTERACTIONS/interaction.dta
 
@@ -275,7 +275,7 @@ scalar s_punctuality = r(mean)
  SUB-INDEX 5 — STAFF–USER RELATIONSHIP
 **************************************************************************************************/
 
-use "$ROOT\INTERACTIONS\interaction", clear
+use "$ROOT\interaction", clear
 
 foreach var in qu1 qu2 qu3 qu4 qu5 qu6 qu7 qu8 qu9 qu10 {
     decode `var', generate(`var'_str)
@@ -484,4 +484,5 @@ order Label Code_question Question score
 replace score = score * 100
 
 export excel using "$OUT\indice_global_matrice_Harmean.xlsx", ///
+
 sheet("INDICE 3") firstrow(variables) sheetmodify
